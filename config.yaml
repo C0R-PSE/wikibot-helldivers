@@ -5,6 +5,9 @@ on:
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./scripts
     steps:
       - name: Every time
-        run: echo "This step will always run"
+        run: Helldiver Archivist.js
