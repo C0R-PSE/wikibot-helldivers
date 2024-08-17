@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./scripts
+        working-directory: ./main
     steps:
       - name: Every time
         run: Helldiver Archivist.js
